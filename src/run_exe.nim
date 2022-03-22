@@ -2,7 +2,7 @@ import osproc
 
 
 proc `exe`(x: string): int =
-  `execCmd` x
+  execCmd x
 
 
 proc `run`(x: int): proc =
