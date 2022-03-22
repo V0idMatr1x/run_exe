@@ -8,4 +8,9 @@ A mini DSL for Nim that provides syntactic sugar for running/piping shell comman
 
 #### Usage
 
-```run exe "some command"```
+```
+1. import run_exe
+2.
+3.
+4. run exe "some command"
+```
