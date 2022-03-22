@@ -29,8 +29,9 @@ File 1: extension.nim
 1. import nimpy
 2. import run_exe
 3.
-4. proc run(cmd: string): string {.exportpy.} =
-5.  run exe cmd
+4. 
+5. proc run(cmd: string): string {.exportpy.} =
+6.  run exe cmd
 
 File 2: main.py
 
