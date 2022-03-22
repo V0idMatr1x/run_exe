@@ -9,5 +9,4 @@ proc `run`(x: int): proc =
   discard x
   
   
-export run
-export exe
+export run, exe
