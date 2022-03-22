@@ -20,4 +20,22 @@ Example:
 6. run exe "neofetch"
 7. run exe "cmatrix"
 8. run exe "sudo nmap -v -A -sC -p 80 -f <target ip>"
+_______________________________________________________
+
+Example 2: Use Nim instead of Python subprocess
+
+File 1: extension.nim
+
+1. import nimpy
+2. import run_exe
+3.
+4. proc run(cmd: string): string {.exportpy.} =
+5.  run exe cmd
+
+File 2: main.py
+
+1. import nimporter, extension as ext
+2.
+3.
+4. ext.run("curl rate.sx")
 ```
