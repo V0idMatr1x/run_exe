@@ -15,5 +15,5 @@ Example:
 1. import run_exe
 2.
 3.
-4. run exe "nimble publish"
+4. run exe "sudo pacman -Syyu"
 ```
