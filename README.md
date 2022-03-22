@@ -1,4 +1,4 @@
-# run_exe
+# runexe
 A mini DSL for Nim that provides syntactic sugar for running/piping shell commands.
 
 
