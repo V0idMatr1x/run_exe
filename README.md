@@ -4,7 +4,7 @@ A mini DSL for Nim that provides syntactic sugar for running/piping shell comman
 
 ### Installation
 
-```nimble install run_exe```
+```nimble install runexe```
 
 #### Usage
 
