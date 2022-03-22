@@ -9,8 +9,11 @@ A mini DSL for Nim that provides syntactic sugar for running/piping shell comman
 #### Usage
 
 ```
+Example:
+
+
 1. import run_exe
 2.
 3.
-4. run exe "some command"
+4. run exe "nimble publish"
 ```
