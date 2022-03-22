@@ -1,9 +1,11 @@
 # runexe
-A mini DSL for Nim that provides syntactic sugar for running/piping shell commands.
+## A mini DSL for Nim that provides syntactic sugar for running/piping shell commands.
 
 
-I intend on tunring runexe into a fully fledged scripting library in the near future.
-However, it will be well thought out, and I will take my time thinking about my implementation for V1.0.
+
+I fully intend on turning runexe into a fully fledged scripting library in the near future.
+However, it will be well thought out, and I will take my time thinking about my implementation for V1.0
+
 
 - Goals:
   - Painless Scripting 
@@ -11,9 +13,11 @@ However, it will be well thought out, and I will take my time thinking about my 
   - Elegance & Simplicity
   - Small & Focused   
 
+
 ### Installation
 
 ```nimble install runexe```
+
 
 #### Usage
 
