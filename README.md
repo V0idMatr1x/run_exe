@@ -30,7 +30,7 @@ File 1: extension.nim
 2. import run_exe
 3.
 4. 
-5. proc run(cmd: string): string {.exportpy.} =
+5. proc run_it(cmd: string): string {.exportpy.} =
 6.  run exe cmd
 
 File 2: main.py
@@ -38,5 +38,5 @@ File 2: main.py
 1. import nimporter, extension as ext
 2.
 3.
-4. ext.run("curl rate.sx")
+4. ext.run_it("curl rate.sx")
 ```
