@@ -1,12 +1,9 @@
 import osproc
 
 
-proc `exe`(x: string): int {.noSideEffect.} =
+proc `exe`*(x: string): int {.noSideEffect.} =
   execCmd x
 
 
-proc `run`(x: int): proc {.noSideEffect.} =
+proc `run`*(x: int): proc {.noSideEffect.} =
   discard x
-  
-  
-export run, exe
