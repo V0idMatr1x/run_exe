@@ -7,3 +7,7 @@ proc `exe`(x: string): int =
 
 proc `run`(x: int): proc =
   discard x
+  
+  
+export run
+export exe
