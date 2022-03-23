@@ -1,6 +1,6 @@
 import osproc
 import std / strformat
-import std / re
+
 
   #[Section: Executing Shell commands]#
 #__________________________________
@@ -23,7 +23,6 @@ proc `run`*(cmd: int): proc {.noSideEffect.} =
 # Limitation: only supports one string argument
 # For now echo must be used explicitly for multiple arguments & types
 proc `>>`*(strout: static string): proc =
-  if (r"^.{.}$" == strout):
     echo fmt strout
-  else:
-    echo fmt strout
+
+
