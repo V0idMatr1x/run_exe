@@ -17,9 +17,7 @@ proc `run`*(cmd: int): proc {.noSideEffect.} =
 
   #[Section: String IO]#
 #__________________________________
-# echo a template string
-# Looks for `{}` in string
-# This is so the same oprator can be used interchangeably for regular strings and template strings
+# This is so the same oprator can be used interchangeably with template strings & strings.
 # Limitation: only supports one string argument
 # For now echo must be used explicitly for multiple arguments & types
 proc `>>`*(strout: static string): proc =
