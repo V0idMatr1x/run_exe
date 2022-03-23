@@ -1,5 +1,5 @@
 # runexe
-## A Scripting ToolBox that provides a delcaritive DSL for ultimate productivity!
+## A Scripting ToolBox that provides a declarative DSL for ultimate productivity!
 
 ### Motivation
 I want my own ergonomic dialect of Nim as a library to use in my projects.
