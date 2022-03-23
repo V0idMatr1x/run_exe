@@ -18,5 +18,3 @@ proc `run`*(cmd: int): proc {.noSideEffect.} =
 #__________________________________
 proc `>>`*(strout: static string): proc =
   echo fmt strout
-
-
