@@ -14,7 +14,7 @@ However, it will be well thought out, and I will take my time thinking about my 
   - Painless Scripting 
   - Declarative Approach 
   - Elegance & Simplicity
-  - Small & Focused   
+
   
  - Features
     - A suite of macros & operators for declarative scripting.
