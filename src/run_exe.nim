@@ -1,8 +1,8 @@
 import osproc
 import std / strformat
+import std / strutils
 
-
-  #[Section: Executing CMD in Shell]#
+  #[Section: Executing CMD's in Shell]#
 #__________________________________
 
 # Run x cmd
@@ -21,9 +21,4 @@ proc `run`*(cmd: int): proc {.noSideEffect.} =
 # Limitation: only supports one string argument
 # For now echo must be used explicitly for multiple arguments & types
 proc `>>`*(strout: static string): proc =
-    echo fmt strout
-
-
-# readLine call by `input()`
-proc `input`*(): proc =
-  let data = stdin.readLine()
+    stdout.writeLine(fmt strout)
