@@ -2,7 +2,7 @@ import osproc
 import std / strformat
 
 
-  #[Section: Executing Shell commands]#
+  #[Section: Executing CMD in Shell]#
 #__________________________________
 
 # Run x cmd
@@ -24,6 +24,6 @@ proc `>>`*(strout: static string): proc =
     echo fmt strout
 
 
-# Read Line call by `input()`
+# readLine call by `input()`
 proc `input`*(): proc =
   let data = stdin.readLine()
