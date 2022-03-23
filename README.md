@@ -49,7 +49,7 @@ Example 2: Use Nim instead of Python subprocess
 
 File 1: extension.nim
 
-1. import nimpy
+1. import run_exe / bridge
 2. import run_exe
 3.
 4. 
