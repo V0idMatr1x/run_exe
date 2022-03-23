@@ -28,5 +28,3 @@ proc `>>`*(strout: static string): proc =
 proc `input`*(): proc =
  let data = stdin.readLine()
  discard data
-
-input()
