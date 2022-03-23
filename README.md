@@ -1,6 +1,5 @@
 # runexe
-## A mini DSL for Nim that provides syntactic sugar for running/piping shell commands.
-
+## A Scripting ToolBox that provides a delcaritive DSL for ultimate productivity!
 
 
 I fully intend on turning runexe into a fully fledged scripting library in the near future.
