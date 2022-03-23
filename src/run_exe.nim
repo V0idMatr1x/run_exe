@@ -25,5 +25,8 @@ proc `>>`*(strout: static string): proc =
 
 
 # Read Line call by `input()`
-proc `input`*(): proc =
+proc `input`(): proc =
  let data = stdin.readLine()
+
+
+export input
