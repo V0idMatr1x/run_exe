@@ -24,5 +24,3 @@ proc `run`*(cmd: int): proc {.noSideEffect.} =
 # For now echo must be used explicitly for multiple arguments & types
 proc `>>`*(strout: static string): proc =
     echo fmt strout
-
-
