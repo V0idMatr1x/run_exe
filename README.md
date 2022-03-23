@@ -8,6 +8,8 @@ I want to make it polished, and resonable enough for others to use.
 I fully intend on turning runexe into a fully fledged scripting library in the near future.
 However, it will be well thought out, and I will take my time thinking about my implementation for V1.0
 
+  - ***IMPORTANT: Until V1 changes may be made frequently without warning!***
+
 - ***Very Much In Development***
 
 - Goals:
