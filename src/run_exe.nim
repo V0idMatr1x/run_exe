@@ -1,6 +1,6 @@
 import osproc
 import std / strformat
-import std / strutils
+
 
   #[Section: Executing CMD's in Shell]#
 #__________________________________
