@@ -11,7 +11,7 @@ import std/distros
 
 
 # Procedure that returns OS info
-proc get_os_info*(t: bool): string =
+proc `~!`*(t: bool): string {.noSideEffect.} =
     # If an OS is detected it will be returned as a string value
     if detectOs(ArchLinux) == t:
         return "Linux, Distro: ArchLinux"
