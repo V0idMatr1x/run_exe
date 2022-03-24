@@ -5,7 +5,7 @@
 
 - [Installation](#installation)
 - [Features](#features)
-- [Usage](#usage)
+
 
 
 ### Motivation
