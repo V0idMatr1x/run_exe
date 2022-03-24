@@ -105,7 +105,28 @@ proc os_eye*(t: bool): string =
         return "Linux, Distro: PCLInuxOS"
     elif detectOs(RemixOS) == t:
         return "Linux, Distro: RemixOS"
+    elif detectOs(Void) == t:
+        return "Linux, Distro: VoidLinux"
     elif detectOs(Linux) == t:
         return "Linux Generic"
     else:
         return "Unsupported OS"
+
+
+#[Distribution {.pure.} = enum
+  Windows,                  ## some version of Windows
+  Posix,                    ## some POSIX system
+  MacOSX,                   ## some version of OSX
+  Linux,                    ## some version of Linux
+  Ubuntu, Debian, Gentoo, Fedora, RedHat, OpenSUSE, Manjaro, Elementary, Zorin,
+  CentOS, Deepin, ArchLinux, Artix, Antergos, PCLinuxOS, Mageia, LXLE, Solus,
+  Lite, Slackware, Androidx86, Puppy, Peppermint, Tails, AntiX, Kali,
+  SparkyLinux, Apricity, BlackLab, Bodhi, TrueOS, ArchBang, KaOS, WattOS,
+  Korora, Simplicity, RemixOS, OpenMandriva, Netrunner, Alpine, BlackArch,
+  Ultimate, Gecko, Parrot, KNOPPIX, GhostBSD, Sabayon, Salix, Q4OS, ClearOS,
+  Container, ROSA, Zenwalk, Parabola, ChaletOS, BackBox, MXLinux, Vector, Maui,
+  Qubes, RancherOS, Oracle, TinyCore, Robolinux, Trisquel, Voyager, Clonezilla,
+  SteamOS, Absolute, NixOS, ## NixOS or a Nix build environment
+  AUSTRUMI, Arya, Porteus, AVLinux, Elive, Bluestar, SliTaz, Solaris, Chakra,
+  Wifislax, Scientific, ExTiX, Rockstor, GoboLinux, Void, BSD, FreeBSD, OpenBSD,
+  DragonFlyBSD, Haiku]#
