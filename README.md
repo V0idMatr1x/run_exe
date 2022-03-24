@@ -39,7 +39,7 @@ However, it will be well thought out, and I will take my time thinking about my 
 ```
 # Run a shell command 
     Example: run exe "some-command"
-# String IO
+# Output Operators
     # >! Operator to invoke a pure stdout 
             # Example:
                 >! 0 # Console Output: 0
