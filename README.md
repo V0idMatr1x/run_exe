@@ -1,4 +1,4 @@
-# runexe
+# RUN_EXE
 ## A Scripting ToolBox that provides a declarative DSL for ultimate productivity!
 
 ### Motivation
