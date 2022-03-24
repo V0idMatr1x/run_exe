@@ -51,15 +51,12 @@ However, it will be well thought out, and I will take my time thinking about my 
         - `>> "Hello, {name}"` 
         - `# Console Output: Hello, John!`
 
-
-```
-
-
 ### Installation
 
-```nimble install runexe```
+- `nimble install runexe`
 
 
+```
 Example:
 
 
