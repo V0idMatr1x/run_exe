@@ -30,11 +30,6 @@ However, it will be well thought out, and I will take my time thinking about my 
        - `# Console Output: ArchLinux`
 
 
-### Installation
-
-```nimble install runexe```
-
-
 #### Usage
 
 
@@ -58,6 +53,13 @@ However, it will be well thought out, and I will take my time thinking about my 
 
 
 ```
+
+
+### Installation
+
+```nimble install runexe```
+
+
 Example:
 
 
