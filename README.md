@@ -29,9 +29,9 @@ However, it will be well thought out, and I will take my time thinking about my 
       - ```import run_exe / bridge``` 
     - ✓ Ability to expose Sp3ctr3 (OS Fingerprinting Library that I wrote based on Nim's standard library)
          - ```import run_exe / sp3ctr3```
-       - Example: `>> {os_eye false}` 
+       - Example: `>! os_eye false` 
          - `# Console Output: Linux, Distro: ArchLinux`
-       - Example: `>> {os_eye true}` 
+       - Example: `>> OS: "{os_eye true}"` 
          - `# Console Output: Linux Generic`
          - `# Console Output: Microsoft Windows`
          - `# Console Output: Mac OSX`
