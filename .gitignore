@@ -1,4 +1,6 @@
 /.idea
 /__pycache__
 /src/run_exe.out
+/test_env
+/test_env/test
 

@@ -33,6 +33,24 @@ However, it will be well thought out, and I will take my time thinking about my 
 
 #### Usage
 
+
+##### Current Operators
+
+- ```
+        - Run a shell command 
+          - run exe <string:cmd>
+        - String IO
+          - >! Operator to invoke a pure stdout 
+            - Example:
+               >! 0 # Console Output: 0
+               >! "Hello, World!" # Console Output: Hello, World!
+          - >> template string operator
+            - Example: 
+               let name = "John"
+               >> "Hello {name}" # Console Output: Hello John
+  ```
+
+
 ```
 Example:
 
