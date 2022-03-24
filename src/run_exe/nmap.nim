@@ -13,9 +13,9 @@ proc initNmap*(): nmap =
 import run_exe
 
 
-# Section
+# Section: IDS Evasion
 
-proc `frag!`(ip: float64, port: int): proc =
+proc `frag!`*(ip: float64, port: int): proc =
   # Frag Scan
   const frag_scan = fmt"sudo nmap -v -A -sC -sV -p {port} -f -Pn {ip}"
   >> "Running Script!: {frag_scan}"
