@@ -39,4 +39,5 @@ proc initBridge*(): bridge =
 
   ***Required per nimpy license***
 ]#
-import nimpy*
+import nimpy
+export nimpy
