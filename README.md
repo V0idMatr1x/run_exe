@@ -25,7 +25,7 @@ However, it will be well thought out, and I will take my time thinking about my 
     - ✓ Ability to optionally expose [nimpy](https://github.com/yglukhov/nimpy) for on the fly interop with Python 
       - ```import run_exe / bridge``` 
     - ✓ Ability to expose Sp3ctr3 (OS Fingerprinting Library that I wrote based on Nim's standard library)
-       - ```import sp3ctr3 / sp3ctr3_bridge```
+       - ```import run_exe / sp3ctr3```
        - Example: `>> {os_eye(true)}` 
        - `# Console Output: ArchLinux`
 
