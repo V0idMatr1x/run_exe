@@ -17,6 +17,6 @@ import run_exe
 
 proc `frag!`*(ip: float64, port: int): proc =
   # Frag Scan
-  const frag_scan = fmt"sudo nmap -v -A -sC -sV -p {port} -f -Pn {ip}"
+  let frag_scan = fmt"sudo nmap -v -A -sC -sV -p {port} -f -Pn {ip}"
   >> "Running Script!: {frag_scan}"
   return run exe frag_scan
