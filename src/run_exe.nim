@@ -1,6 +1,8 @@
 import osproc
 import std / strformat
 
+#[Base Utils]#
+
 
   #[Section: Executing CMD's in Shell]#
 #__________________________________
