@@ -1,5 +1,8 @@
 # RUN_EXE
-## A Scripting ToolBox that provides a declarative DSL for ultimate productivity!
+
+
+## A Scripting ToolBox that provides a declarative DSL for ultimate productivity written in Nim!
+
 
 ### Motivation
 I want my own ergonomic dialect of Nim as a library to use in my projects.
