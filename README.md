@@ -42,12 +42,15 @@ However, it will be well thought out, and I will take my time thinking about my 
 - Output Operators
     - `>!` Operator to invoke a pure stdout 
             - Example:
-                - `>! 0` `# Console Output: 0`
-                - `>! "Hello, World!"` `# Console Output: Hello, World!`
+                - `>! 0` 
+                - `# Console Output: 0`
+                - `>! "Hello, World!"` 
+                - `# Console Output: Hello, World!`
     - `>>` template string operator
             - Example: 
                 - `let name = "John"`
-                - `>> "Hello, {name}"` `# Console Output: Hello, John!`
+                - `>> "Hello, {name}"` 
+                - `# Console Output: Hello, John!`
 
 
 ```
