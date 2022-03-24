@@ -4,6 +4,9 @@
 ## A Scripting ToolBox that provides a declarative DSL for ultimate productivity written in Nim!
 
 - [Installation](#installation)
+- [Features](#features)
+- [Usage](#usage)
+
 
 ### Motivation
 I want my own ergonomic dialect of Nim as a library to use in my projects.
