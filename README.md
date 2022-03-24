@@ -26,7 +26,7 @@ However, it will be well thought out, and I will take my time thinking about my 
     - Elegance & Simplicity
 
   
- - Features
+#### Features
     - A suite of macros & operators for declarative scripting.
       - Designed to make you more productive, not get in your way!
       - In Progress
