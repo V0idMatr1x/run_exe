@@ -18,8 +18,6 @@ proc `run`*(cmd: int): proc {.noSideEffect.} =
   #[Section: String IO]#
 #__________________________________
 # This is so the same operator can be used interchangeably with template strings & strings.
-# Limitation: only supports one string argument
-# For now echo must be used explicitly for multiple arguments & types
 proc `>>`*(output: static string): proc =
   stdout.writeLine fmt output
 
