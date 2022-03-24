@@ -3,6 +3,7 @@
 
 ## A Scripting ToolBox that provides a declarative DSL for ultimate productivity written in Nim!
 
+- [Installation](#installation)
 
 ### Motivation
 I want my own ergonomic dialect of Nim as a library to use in my projects.
@@ -13,12 +14,13 @@ However, it will be well thought out, and I will take my time thinking about my 
 
   - ***IMPORTANT: Until V1 changes may be made frequently without warning!***
 
-- ***Very Much In Development***
+  - ***Very Much In Development***
+  
 
-- Goals:
-  - Painless Scripting 
-  - Declarative Approach 
-  - Elegance & Simplicity
+  - Goals:
+    - Painless Scripting 
+    - Declarative Approach 
+    - Elegance & Simplicity
 
   
  - Features
