@@ -15,8 +15,10 @@ import run_exe
 
 # Section: IDS Evasion
 
-proc `frag!`*(ip: float64, port: int): proc =
+proc `frag`(ip: string, port: string): proc =
   # Frag Scan
   let frag_scan = fmt"sudo nmap -v -A -sC -sV -p {port} -f -Pn {ip}"
   >> "Running Script!: {frag_scan}"
   return run exe frag_scan
+
+export frag
