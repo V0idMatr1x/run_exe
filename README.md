@@ -37,9 +37,9 @@ However, it will be well thought out, and I will take my time thinking about my 
      - Example: `>! os_eye false` 
        - `# Console Output: Linux, Distro: ArchLinux`
      - Example: `>> OS: "{os_eye true}"` 
-       - `# Console Output: Linux Generic`
-       - `# Console Output: Microsoft Windows`
-       - `# Console Output: Mac OSX`
+       - `# Console Output: OS: Linux Generic`
+       - `# Console Output: OS: Microsoft Windows`
+       - `# Console Output: OS: Mac OSX`
 
 
 
