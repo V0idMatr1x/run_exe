@@ -1,3 +1,4 @@
+import macros
 import osproc
 import std / strformat
 
@@ -25,5 +26,13 @@ proc `>>`*(output: static string): proc =
 
 
 # Pure STDOUT operator
-proc `>!`*[T](output: varargs[T]): proc =
-  stdout.writeLine output
+macro `>!`*(name, value: untyped) =
+    quote do:
+      echo value
+
+
+# STDIN macro `input()`
+# let x = input()
+macro `input`*: untyped =
+  quote do:
+    stdin.readLine()
