@@ -26,9 +26,8 @@ proc `>>`*(output: static string): proc =
 
 
 # Pure STDOUT operator
-macro `>!`*(name, value: untyped) =
-    quote do:
-      echo value
+proc `>!`*[T](output: varargs[T]): proc =
+  stdout.writeLine output
 
 
 # STDIN macro `input()`
