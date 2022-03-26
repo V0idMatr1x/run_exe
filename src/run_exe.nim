@@ -20,14 +20,9 @@ proc `run`*(cmd: int): proc {.noSideEffect.} =
 
   #[Section: String IO]#
 #__________________________________
-# This is so the same operator can be used interchangeably with template strings & strings.
-proc `>>`*(output: static string): proc =
+# @s Denotes a Template String STDOUT
+proc `~`*(output: static string): proc =
   stdout.writeLine fmt output
-
-
-# Pure STDOUT operator
-proc `>!`*[T](output: varargs[T]): proc =
-  stdout.writeLine output
 
 
 # STDIN macro `input()`
