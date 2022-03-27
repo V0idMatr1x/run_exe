@@ -10,10 +10,10 @@
 
 ### Motivation
 I want my own ergonomic dialect of Nim as a library to use in my projects.
-I want to make it polished, and resonable enough for others to use.
+I want to make it polished, and reasonable enough for others to use.
 
-I fully intend on turning runexe into a fully fledged scripting library in the near future.
-However, it will be well thought out, and I will take my time thinking about my implementation for V1.0
+I fully intend on turning RUN_EXE into a fully fledged scripting library in the near future.
+However, it will be well-thought-out, and I will take my time thinking about my implementation for V1.0
 
   - ***IMPORTANT: Until V1 changes may be made frequently without warning!***
 
@@ -34,9 +34,9 @@ However, it will be well thought out, and I will take my time thinking about my 
   - ```import run_exe / bridge``` 
   - ✓ Ability to expose Sp3ctr3 (OS Fingerprinting Library that I wrote based on Nim's standard library)
        - ```import run_exe / sp3ctr3```
-     - Example: `>! os_eye false` 
+     - Example: `echo os_eye false` 
        - `# Console Output: Linux, Distro: ArchLinux`
-     - Example: `>> OS: "{os_eye true}"` 
+     - Example: `~ OS: "{os_eye true}"` 
        - `# Console Output: OS: Linux Generic`
        - `# Console Output: OS: Microsoft Windows`
        - `# Console Output: OS: Mac OSX`
@@ -49,20 +49,19 @@ However, it will be well thought out, and I will take my time thinking about my 
 ##### Current Operators
 
 
-- Run a shell command 
-    - Example: ```run exe "some-command"```
-- Output Operators
-  - `>!` Operator to invoke a pure stdout 
-    - Example:
-        - `>! 0` 
-        - `# Console Output: 0`
-        - `>! "Hello, World!"` 
-        - `# Console Output: Hello, World!`
-  - `>>` template string operator
+- Run a shell command `run exe` 
+    - Example: `run exe "some-command"`
+- String IO
+  - `~` template standard output operator
     - Example: 
         - `let name = "John"`
-        - `>> "Hello, {name}!"` 
+        - `~ "Hello, {name}!"` 
         - `# Console Output: Hello, John!`
+  - `input()` Python-like input macro
+  - Example: 
+      - `let age = input("What is your age?")`
+      - `~ "You are {age} years old!"` 
+      - `# Console Output: You are 20 years old John!`
 
 ### Installation
 
