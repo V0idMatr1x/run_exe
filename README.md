@@ -61,7 +61,7 @@ However, it will be well-thought-out, and I will take my time thinking about my 
   - Example: 
       - `let age = input("What is your age?")`
       - `~ "You are {age} years old!"` 
-      - `# Console Output: You are 20 years old John!`
+      - `# Console Output: You are 20 years old!`
 
 ### Installation
 
