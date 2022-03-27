@@ -91,9 +91,11 @@ Example 2: Use Nim instead of Python subprocess
 
 File 1: extension.nim
 
-1. import run_exe / bridge
-2. 
-3. proc subproc(cmd: string): string {.exportpy.} =
+1. import run_exe
+2. import run_exe / bridge
+3. 
+4.
+5. proc subproc(cmd: string): string {.exportpy.} =
 6.  run exe cmd
 
 File 2: main.py
