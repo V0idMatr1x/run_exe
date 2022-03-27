@@ -36,7 +36,7 @@ However, it will be well-thought-out, and I will take my time thinking about my 
        - ```import run_exe / sp3ctr3```
      - Example: `echo os_eye false` 
        - `# Console Output: Linux, Distro: ArchLinux`
-     - Example: `>> OS: "{os_eye true}"` 
+     - Example: `>> "OS: {os_eye true}"` 
        - `# Console Output: OS: Linux Generic`
        - `# Console Output: OS: Microsoft Windows`
        - `# Console Output: OS: Mac OSX`
