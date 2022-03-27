@@ -21,7 +21,7 @@ proc `run`*(cmd: int): proc {.noSideEffect.} =
   #[Section: String IO]#
 #__________________________________
 # @s Denotes a Template String STDOUT
-proc `~`*(output: static string): proc =
+proc `>>`*(output: static string): proc =
   stdout.writeLine fmt output
 
 

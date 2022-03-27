@@ -36,7 +36,7 @@ However, it will be well-thought-out, and I will take my time thinking about my 
        - ```import run_exe / sp3ctr3```
      - Example: `echo os_eye false` 
        - `# Console Output: Linux, Distro: ArchLinux`
-     - Example: `~ OS: "{os_eye true}"` 
+     - Example: `>> OS: "{os_eye true}"` 
        - `# Console Output: OS: Linux Generic`
        - `# Console Output: OS: Microsoft Windows`
        - `# Console Output: OS: Mac OSX`
@@ -52,10 +52,10 @@ However, it will be well-thought-out, and I will take my time thinking about my 
 - Run a shell command `run exe` 
     - Example: `run exe "some-command"`
 - String IO
-  - `~` template standard output operator
+  - `>>` template standard output operator
     - Example: 
         - `let name = "John"`
-        - `~ "Hello, {name}!"` 
+        - `>> "Hello, {name}!"` 
         - `# Console Output: Hello, John!`
   - `input()` Python-like input macro
     - Example: 
@@ -65,7 +65,7 @@ However, it will be well-thought-out, and I will take my time thinking about my 
           if age < 18:
             echo "Sorry, you're too young to use this app!"
           else:
-            ~ You are {age} years old, Welcome!"
+            >> You are {age} years old, Welcome!"
       ```
 
 ### Installation
