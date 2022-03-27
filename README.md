@@ -52,7 +52,7 @@ However, it will be well-thought-out, and I will take my time thinking about my 
 - Run a shell command `run exe` 
     - Example: `run exe "some-command"`
 - String IO
-  - `>>` template standard output operator
+  - `>>` Template standard output operator
     - Example: 
         - `let name = "John"`
         - `>> "Hello, {name}!"` 
