@@ -13,7 +13,6 @@ proc `exe`*(cmd: string): int {.noSideEffect.} =
   execCmd cmd
 
 
-# Discard x because x is initialized but unused here.
 proc `run`*(cmd: int): proc {.noSideEffect.} =
   discard cmd
 
