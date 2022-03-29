@@ -9,7 +9,7 @@ import std / strformat
 #__________________________________
 
 # Run x cmd
-proc `exe`*(cmd: string): int {.noSideEffect.} =
+proc `exe`*(cmd: string): int =
   execCmd cmd
 
 
