@@ -7,11 +7,6 @@
 - [Features](#features)
 
 
-
-### Motivation
-I want my own ergonomic dialect of Nim as a library to use in my projects.
-I want to make it polished, and reasonable enough for others to use.
-
 I fully intend on turning RUN_EXE into a fully fledged scripting library in the near future.
 However, it will be well-thought-out, and I will take my time thinking about my implementation for V1.0
 
