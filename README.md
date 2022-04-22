@@ -34,7 +34,7 @@ However, it will be well-thought-out, and I will take my time thinking about my 
        - ```import run_exe / sp3ctr3```
      - Example: `echo os_eye false` 
        - `# Console Output: Linux, Distro: ArchLinux`
-     - Example: `>> "OS: {os_eye true}"` 
+     - Example: `echo "OS: {os_eye true}"` 
        - `# Console Output: OS: Linux Generic`
        - `# Console Output: OS: Microsoft Windows`
        - `# Console Output: OS: Mac OSX`
@@ -44,18 +44,9 @@ However, it will be well-thought-out, and I will take my time thinking about my 
 #### Usage
 
 
-##### Current Operators
-
-
 - Run a shell command `run exe` 
     - Example: `run exe "some-command"`
-- String IO
-  - `>>` Template standard output operator
-    - Example: 
-        - `let name = "John"`
-        - `>> "Hello, {name}!"` 
-        - `# Console Output: Hello, John!`
-      ```
+
 
 ### Installation
 
