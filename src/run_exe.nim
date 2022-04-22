@@ -1,5 +1,4 @@
 import osproc
-import std / strformat
 
 #[Base Utils]#
 
