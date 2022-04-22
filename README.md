@@ -30,8 +30,7 @@ However, it will be well-thought-out, and I will take my time thinking about my 
 - A suite of macros & operators for declarative scripting.
      - Designed to make you more productive, not get in your way!
      - In Progress
-- ✓ Ability to optionally expose [nimpy](https://github.com/yglukhov/nimpy) for on the fly interop with Python 
-  - ```import run_exe / bridge``` 
+  - ```ii 
   - ✓ Ability to expose Sp3ctr3 (OS Fingerprinting Library that I wrote based on Nim's standard library)
        - ```import run_exe / sp3ctr3```
      - Example: `echo os_eye false` 
@@ -86,22 +85,4 @@ Example:
 7. run exe "cmatrix"
 8. run exe "sudo nmap -v -A -sC -p 80 -f <target ip>"
 _______________________________________________________
-
-Example 2: Use Nim instead of Python subprocess
-
-File 1: extension.nim
-
-1. import run_exe
-2. import run_exe / bridge
-3. 
-4.
-5. proc subproc(cmd: string): string {.exportpy.} =
-6.  run exe cmd
-
-File 2: main.py
-
-1. import nimporter, extension as e
-2.
-3.
-4. e.subproc("curl rate.sx")
 ```
