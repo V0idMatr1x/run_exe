@@ -22,10 +22,3 @@ proc `run`*(cmd: int): proc {.noSideEffect.} =
 # >> Denotes a Template String STDOUT
 proc `>>`*(output: static string): proc =
   stdout.writeLine fmt output
-
-
-# STDIN macro `input()`
-# let x = input()
-macro `input`*: untyped =
-  quote do:
-    stdin.readLine()
