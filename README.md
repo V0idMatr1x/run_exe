@@ -30,7 +30,6 @@ However, it will be well-thought-out, and I will take my time thinking about my 
 - A suite of macros & operators for declarative scripting.
      - Designed to make you more productive, not get in your way!
      - In Progress
-  - ```ii 
   - ✓ Ability to expose Sp3ctr3 (OS Fingerprinting Library that I wrote based on Nim's standard library)
        - ```import run_exe / sp3ctr3```
      - Example: `echo os_eye false` 
