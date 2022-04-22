@@ -55,15 +55,6 @@ However, it will be well-thought-out, and I will take my time thinking about my 
         - `let name = "John"`
         - `>> "Hello, {name}!"` 
         - `# Console Output: Hello, John!`
-  - `input()` Python-like input macro
-    - Example: 
-      ```
-          let age = input("What is your age?")
-    
-          if age < 18:
-            echo "Sorry, you're too young to use this app!"
-          else:
-            >> You are {age} years old, Welcome!"
       ```
 
 ### Installation
