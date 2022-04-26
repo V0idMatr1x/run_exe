@@ -13,11 +13,11 @@ However, it will be well-thought-out, and I will take my time thinking about my 
 ### What is a ToolBox?
 In my view a ToolBox is a suite of well-crafted libraries that enhance developer productivity in a particular domain.
 
-### What are operators
+### What are operators?
 Nim provides a syntax for declaring user defined symbols that have embedded functionality.
 It allows us to write less code, and not repeat ourselves in the future.
 
-### What are macros
+### What are macros?
 Nim provides a flexible macro system that allows direct manipulation of the language's abstract syntax tree.
 This means you can create domain specific languages, and write code that is generated at compile-time. Like operators, macros allow us to reduce the code we write, and create custom keywords to make the language more ergonomic to a speific task.
 
