@@ -8,7 +8,19 @@
 
 
 I fully intend on turning RUN_EXE into a fully fledged scripting library in the near future.
-However, it will be well-thought-out, and I will take my time thinking about my implementation for V1.0
+However, it will be well-thought-out, and I will take my time thinking about my implementation for V1.0.
+
+### What is a ToolBox?
+In my view a ToolBox is a suite of well-crafted libraries that enhance developer productivity in a particular domain.
+
+### What are operaters
+Nim provides a syntax for declaring user defined symbols that have embedded functionality.
+It allows us to write less code, and not repeat ourselves in the future.
+
+### What are macros
+Nim provides a flexible macro system that allows direct manipulation of the language's abstract syntax tree.
+This means you can create domain specific languages, and write code that is generated at compile-time. Like operators, macros allow us to reduce the code we write, and create custom keywords to make the language more ergonomic to a speific task.
+
   
   - ***UPDATE: I did away with 99% of the availble operators, I will be making new ones from scratch***
     - They were a minor convenience but there was a lot of practical problems in the implementation of the operators.
