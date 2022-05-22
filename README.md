@@ -45,7 +45,7 @@ This means you can create domain specific languages, and write code that is gene
        - ```import run_exe / sp3ctr3```
      - Example: `echo os_eye(false)[1]` 
        - `# Console Output: ArchLinux`
-     - Example: `echo fmt"OS: {os_eye true}"` # Example requires std/strformat to compile successfully.
+     - Example: `echo fmt"OS: {os_eye true}"` # Example requires `std/strformat` to compile successfully.
        - `# Console Output: OS: Linux Generic`
        - `# Console Output: OS: Microsoft Windows`
        - `# Console Output: OS: Mac OSX`
