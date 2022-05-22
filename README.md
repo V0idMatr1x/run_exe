@@ -43,9 +43,9 @@ This means you can create domain specific languages, and write code that is gene
      - In Progress
   - ✓ Ability to expose Sp3ctr3 (OS Fingerprinting Library that I wrote based on Nim's standard library)
        - ```import run_exe / sp3ctr3```
-     - Example: `echo os_eye false` 
-       - `# Console Output: Linux, Distro: ArchLinux`
-     - Example: `echo "OS: {os_eye true}"` 
+     - Example: `echo os_eye(false)[1]` 
+       - `# Console Output: ArchLinux`
+     - Example: `echo fmt"OS: {os_eye true}"` # Example requires std/strformat to compile successfully.
        - `# Console Output: OS: Linux Generic`
        - `# Console Output: OS: Microsoft Windows`
        - `# Console Output: OS: Mac OSX`
@@ -77,4 +77,5 @@ Example:
 7. run exe "cmatrix"
 8. run exe "sudo nmap -v -A -sC -p 80 -f <target ip>"
 _______________________________________________________
+
 ```
