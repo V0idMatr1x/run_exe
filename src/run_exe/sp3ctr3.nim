@@ -34,7 +34,7 @@ proc os_eye*(t: bool): (string, string) =
     elif detectOs(Gentoo) == t:
         return ("Linux", "Gentoo")
     elif detectOs(Manjaro) == t:
-        return ("Linux", "Distro: Manjaro")
+        return ("Linux", "Manjaro")
     elif detectOs(Elementary) == t:
         return ("Linux", "Elementary OS")
     elif detectOs(Zorin) == t:
