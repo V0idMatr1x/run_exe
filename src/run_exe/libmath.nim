@@ -11,11 +11,11 @@ proc initLibMath*(): libmath =
 func add*(a: int, b: int): int =
     return a + b
 
-func subt*(a: int, b: int): int =
+func sub*(a: int, b: int): int =
     return a - b
 
 func multi*(a: int, b: int): int =
     return a * b
 
-func `divi`*(a: float, b: float): float =
+func divi*(a: float, b: float): float =
     return a / b
