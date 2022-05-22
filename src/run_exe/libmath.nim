@@ -2,6 +2,7 @@ type
   libmath* = object
     name*: string
 
+
 proc initLibMath*(): libmath =
   ## Initialises a new ``Submodule`` object.
   libmath(name: "libmath")
