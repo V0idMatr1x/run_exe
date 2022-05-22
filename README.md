@@ -46,9 +46,9 @@ This means one can create domain specific languages, and write code that is gene
      - Example: `echo os_eye(false)[1]` 
        - `# Console Output: ArchLinux`
      - Example: `echo fmt"OS: {os_eye true}"` # Example requires `std/strformat` to compile successfully.
-       - `# Console Output: OS: Linux Generic`
-       - `# Console Output: OS: Microsoft Windows`
-       - `# Console Output: OS: Mac OSX`
+       - `# Console Output: OS: ("Linux", "Generic")`
+       - `# Console Output: OS: ("Microsoft", "Windows")`
+       - `# Console Output: OS: ("Unix", "Mac OSX")`
 
 
 
