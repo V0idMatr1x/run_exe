@@ -16,5 +16,5 @@ proc subt*(a: int, b: int): int =
 proc multi*(a: int, b: int): int =
     return a * b
 
-proc divi*(a: int, b: int): int =
+proc divi*(a: float, b: float): float =
     return a / b
