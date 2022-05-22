@@ -1,2 +1,2 @@
 --gc:orc
--d:release
+--d:release
