@@ -6,7 +6,7 @@ proc initSp3ctr3*(): sp3ctr3 =
   ## Initialises a new ``Submodule`` object.
   sp3ctr3(name: "sp3ctr3")
 
-
+# Depends on:
 import std/distros
 
 
