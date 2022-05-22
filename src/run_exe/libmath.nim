@@ -8,14 +8,14 @@ proc initLibMath*(): libmath =
   libmath(name: "libmath")
 
 
-proc add*(a: int, b: int): int =
+func add*(a: int, b: int): int =
     return a + b
 
-proc subt*(a: int, b: int): int =
+func subt*(a: int, b: int): int =
     return a - b
 
-proc multi*(a: int, b: int): int =
+func multi*(a: int, b: int): int =
     return a * b
 
-proc divi*(a: float, b: float): float =
+func divi*(a: float, b: float): float =
     return a / b
