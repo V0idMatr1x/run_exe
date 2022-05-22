@@ -11,107 +11,111 @@ import std/distros
 
 
 # Procedure that returns OS info
-proc os_eye*(t: bool): string =
+proc os_eye*(t: bool): (string, string) =
     # If an OS is detected it will be returned as a string value
     if detectOs(ArchLinux) == t:
-        return "Linux, Distro: ArchLinux"
+        return ("Linux", "ArchLinux")
     elif detectOs(ArchBang) == t:
-        return "Linux, Distro: ArchBang"
+        return ("Linux", "ArchBang")
     elif detectOs(BlackArch) == t:
-        return "Linux, Distro: BlackArch"
+        return ("Linux", "BlackArch")
     elif detectOs(Kali) == t:
-        return "Linux, Distro: Kali"
+        return ("Linux", "Kali")
     elif detectOs(Parrot) == t:
-        return "Linux, Distro: Parrot Linux"
+        return ("Linux", "Parrot OS")
     elif detectOs(BackBox) == t:
-        return "Linux, Distro: BackBox"
+        return ("Linux", "BackBox")
     elif detectOs(Netrunner) == t:
-        return "Linux, Distro: Netrunner"
+        return ("Linux", "Netrunner")
     elif detectOs(Tails) == t:
-        return "Linux, Distro: Tails"
+        return ("Linux", "Tails")
     elif detectOs(Qubes) == t:
-        return "Linux, Distro: Qubes OS"
+        return ("Linux", "Qubes OS")
     elif detectOs(Gentoo) == t:
-        return "Linux, Distro: Gentoo"
+        return ("Linux", "Gentoo")
     elif detectOs(Manjaro) == t:
-        return "Linux, Distro: Manjaro"
+        return ("Linux", "Distro: Manjaro")
     elif detectOs(Elementary) == t:
-        return "Linux, Distro: Elementary OS"
+        return ("Linux", "Elementary OS")
     elif detectOs(Zorin) == t:
-        return "Linux, Distro: Zorin OS"
+        return ("Linux", "Zorin OS")
     elif detectOs(MXLinux) == t:
-        return "Linux, Distro: MX Linux"
+        return ("Linux", "MX Linux")
     elif detectOs(Ubuntu) == t:
-        return "Linux, Distro: Ubuntu"
+        return ("Linux",  "Ubuntu")
     elif detectOs(BlackLab) == t:
-        return "Linux, Distro: BlackLab Linux"
+        return ("Linux", "BlackLab Linux")
     elif detectOs(SparkyLinux) == t:
-        return "Linux, Distro: SparkyLinux"
+        return ("Linux", "SparkyLinux")
     elif detectOs(Peppermint) == t:
-        return "Linux, Distro: Peppermint OS"
+        return ("Linux", "Peppermint OS")
     elif detectOs(Deepin) == t:
-        return "Linux, Distro: Deepin"
+        return ("Linux", "Deepin")
     elif detectOs(Debian) == t:
-        return "Linux, Distro: Debian"
+        return ("Linux", "Debian")
     elif detectOs(SteamOS) == t:
-        return "Linux, Distro: SteamOS"
+        return ("Linux", "SteamOS")
     elif detectOs(Fedora) == t:
-        return "Linux, Distro: Fedora"
+        return ("Linux", "Fedora")
     elif detectOs(OpenSUSE) == t:
-        return "Linux, Distro: OpenSuse"
+        return ("Linux", "OpenSuse")
     elif detectOs(RedHat) == t:
-        return "Linux, Distro: RedHat"
+        return ("Linux", "RedHat")
     elif detectOs(Oracle) == t:
-        return "Linux, Distro: Oracle Linux"
+        return ("Linux", "Oracle Linux")
     elif detectOs(CentOS) == t:
-        return "Linux, Distro: CentOS"
+        return ("Linux", "CentOS")
     elif detectOs(Scientific) == t:
-        return "Linux, Distro: Scientific Linux"
+        return ("Linux", "Scientific Linux")
     elif detectOs(Alpine) == t:
-        return "Linux, Distro: Alpine"
+        return ("Linux", "Alpine")
     elif detectOs(Puppy) == t:
-        return "Linux, Distro: Puppy Linux"
+        return ("Linux", "Puppy Linux")
     elif detectOs(Slackware) == t:
-        return "Linux, Distro: Slackware"
+        return ("Linux", "Slackware")
     elif detectOs(Haiku) == t:
-        return "Linux, Distro: Haiku"
+        return ("Linux", "Haiku")
     elif detectOs(Chakra) == t:
-        return "Linux, Distro: Chakra"
+        return ("Linux", "Chakra")
     elif detectOs(Robolinux) == t:
-        return "Linux, Distro: Robolinux"
+        return ("Linux", "Robolinux")
     elif detectOs(MacOSX) == t:
-        return "Unix,  MacOSX"
+        return ("Unix",  "MacOSX")
     elif detectOs(FreeBSD) == t:
-        return "Unix, Distro: FreeBSD"
+        return ("Unix", "FreeBSD")
     elif detectOs(OpenBSD) == t:
-        return "Unix, Distro: OpenBSD"
+        return ("Unix", "OpenBSD")
     elif detectOs(GhostBSD) == t:
-        return "Unix, Distro: GhostBSD"
+        return ("Unix", "GhostBSD")
     elif detectOs(DragonFlyBSD) == t:
-        return "Unix, Distro: DragonFlyBSD"
+        return ("Unix", "DragonFlyBSD")
     elif detectOs(NixOS) == t:
-        return "Linux, Distro: NixOS"
+        return ("Linux", "NixOS")
     elif detectOs(Windows) == t:
-        return "Microsoft Windows"
+        return ("Microsoft", "Windows")
     elif detectOs(Androidx86) == t:
-        return "Android, Distro: Androidx86"
+        return ("Android", "Androidx86")
     elif detectOs(TinyCore) == t:
-        return "Linux, Distro: TinyCore"
+        return ("Linux", "TinyCore")
     elif detectOs(GoboLinux) == t:
-        return "Linux, Distro: GoboLinux"
+        return ("Linux", "GoboLinux")
     elif detectOs(Artix) == t:
-        return "Linux, Distro: Artix"
+        return ("Linux", "Artix")
     elif detectOs(PCLinuxOS) == t:
-        return "Linux, Distro: PCLInuxOS"
+        return ("Linux", "PCLInuxOS")
     elif detectOs(RemixOS) == t:
-        return "Linux, Distro: RemixOS"
+        return ("Linux", "RemixOS")
     elif detectOs(Void) == t:
-        return "Linux, Distro: VoidLinux"
+        return ("Linux", "VoidLinux")
     elif detectOs(Linux) == t:
-        return "Linux Generic"
+        return ("Linux", "Generic")
     else:
-        return "Unsupported OS"
+        return ("Error", "Unknown OS")
 
+#[
+    echo os_eye(true)[0]
+    echo os_eye(true)[1]
+]#
 
 #[Distribution {.pure.} = enum
   Windows,                  ## some version of Windows
