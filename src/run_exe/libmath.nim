@@ -17,5 +17,5 @@ func subt*(a: int, b: int): int =
 func multi*(a: int, b: int): int =
     return a * b
 
-func divi*(a: float, b: float): float =
+func `divi`*(a: float, b: float): float =
     return a / b
