@@ -19,7 +19,7 @@ It allows us to write less code, and not repeat ourselves in the future.
 
 ### What are macros?
 Nim provides a flexible macro system that allows direct manipulation of the language's abstract syntax tree.
-This means you can create domain specific languages, and write code that is generated at compile-time. Like operators, macros allow us to reduce the code we write, and create custom keywords to make the language more ergonomic to a speific task.
+This means one can create domain specific languages, and write code that is generated at compile-time. Like operators, macros allow us to reduce the code we write, and create custom keywords to make the language more ergonomic to a speific task.
 
   
   - ***UPDATE: I did away with 99% of the availble operators, I will be making new ones from scratch***
