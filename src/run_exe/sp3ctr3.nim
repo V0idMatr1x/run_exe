@@ -10,7 +10,6 @@ proc initSp3ctr3*(): sp3ctr3 =
 import std/distros
 
 
-# Procedure that returns OS info
 proc os_eye*(t: bool): (string, string) =
     # If an OS is detected it will be returned as a string value
     if detectOs(ArchLinux) == t:
