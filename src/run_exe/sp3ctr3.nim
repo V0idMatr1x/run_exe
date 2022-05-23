@@ -111,10 +111,6 @@ proc os_eye*(t: bool): (string, string) =
     else:
         return ("Error", "Unknown OS")
 
-#[
-    echo os_eye(true)[0]
-    echo os_eye(true)[1]
-]#
 
 #[Distribution {.pure.} = enum
   Windows,                  ## some version of Windows
