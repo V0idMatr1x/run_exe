@@ -8,14 +8,7 @@ proc initLibMath*(): libmath =
   libmath(name: "libmath")
 
 
-func add*(a: int, b: int): int =
-    return a + b
-
-func sub*(a: int, b: int): int =
-    return a - b
-
-func multi*(a: int, b: int): int =
-    return a * b
-
-func divi*(a: float, b: float): float =
-    return a / b
+func mul_rng*(a, b:int, n: int): int =
+  func multiply(a, b: int): int =
+    return a * b  
+  return multiply(a, b) * n
