@@ -38,6 +38,8 @@ This means one can create domain specific languages, and write code that is gene
 
   
 #### Features
+- `mul_rng(int, int, n)`, Multiplication with Range.
+  - Sugar for multiplication & addition `import run_exe/libmath`.     
 - A suite of macros & operators for declarative scripting.
      - Designed to make you more productive, not get in your way!
      - In Progress
