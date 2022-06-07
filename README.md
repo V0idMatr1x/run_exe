@@ -37,10 +37,7 @@ This means one can create domain specific languages, and write code that is gene
     - Elegance & Simplicity
 
   
-#### Features
-
-- `mul_rng(int, int, n)`, (Multiplication with Range).
-  - `import run_exe/libmath`      
+#### Features    
 - A suite of macros & operators for declarative scripting.
      - Designed to make you more productive, not get in your way!
      - In Progress
