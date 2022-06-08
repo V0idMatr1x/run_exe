@@ -8,6 +8,7 @@ proc initLibMath*(): libmath =
   libmath(name: "libmath")
 
 # Multiply 2 integers within a range of n
+# A functional way to perform addition & multiplication arithmetic.
 func mul_rng*(a, b: int, n: int): int =
   func multiply(a, b: int): int =
     return a * b  
