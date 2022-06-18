@@ -1,5 +1,4 @@
 import osproc
-#import std/strformat
 import std/browsers
 #[Base Utils]#
 
@@ -10,7 +9,6 @@ import std/browsers
 # Run x cmd
 proc `exe`*(cmd: string): int =
   execCmd cmd
-
 
 proc `run`*(cmd: int): proc {.noSideEffect.} =
   discard cmd
