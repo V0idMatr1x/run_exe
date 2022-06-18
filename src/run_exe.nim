@@ -1,5 +1,6 @@
 import osproc
 import std/browsers
+import std/strformat
 #[Base Utils]#
 
   #[Section: Executing CMD's in Shell]#
@@ -17,3 +18,7 @@ proc `run`*(cmd: int): proc {.noSideEffect.} =
 # Sugar for opening a url with default browser 
 proc `>/`*(url: string): proc =
   openDefaultBrowser url
+
+# Sugar for template/format string debug (stdout)
+proc `>!`*(output: static string): proc =
+  echo fmt output
