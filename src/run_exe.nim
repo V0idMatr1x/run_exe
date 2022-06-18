@@ -30,6 +30,5 @@ macro `input`*: untyped =
     stdin.readLine()
 
 # Sugar for ReadFile
-# `>! ~/ "<file>"`
-proc `~/`*(file: string): string =
-  readFile file 
+proc `rf`*(file: string): string =
+  readFile file
