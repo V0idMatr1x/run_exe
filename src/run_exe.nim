@@ -28,3 +28,8 @@ proc `>!`*(output: static string): proc =
 macro `input`*: untyped =
   quote do:
     stdin.readLine()
+
+# Sugar for ReadFile
+# `>! ~/ "<file>"`
+proc `~/`*(file: string): string =
+  readFile file 
