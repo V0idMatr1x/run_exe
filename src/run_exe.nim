@@ -1,5 +1,6 @@
 import osproc
-
+#import std/strformat
+import std/browsers
 #[Base Utils]#
 
 
@@ -13,3 +14,7 @@ proc `exe`*(cmd: string): int =
 
 proc `run`*(cmd: int): proc {.noSideEffect.} =
   discard cmd
+
+# Sugar for opening a url with default browser 
+proc `>/`*(url: string): proc =
+  openDefaultBrowser url
