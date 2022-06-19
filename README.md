@@ -22,10 +22,6 @@ Nim provides a flexible macro system that allows direct manipulation of the lang
 This means one can create domain specific languages, and write code that is generated at compile-time. Like operators, macros allow us to reduce the code we write, and create custom keywords to make the language more ergonomic to a speific task.
 
   
-  - ***UPDATE: I did away with 99% of the availble operators, I will be making new ones from scratch***
-    - They were a minor convenience but there was a lot of practical problems in the implementation of the operators.
-    - New ones will be made that provide real utility, and aren't simply solutions looking for a problem. 
-  
   - ***IMPORTANT: Until V1 changes may be made frequently without warning!***
 
   - ***Very Much In Development***
