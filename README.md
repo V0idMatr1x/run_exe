@@ -37,6 +37,8 @@ This means one can create domain specific languages, and write code that is gene
 - A suite of macros & operators for declarative scripting.
      - Designed to make you more productive, not get in your way!
      - In Progress
+  - ✓ Macro providing a Pythonic `input()` method for Nim.
+  - ✓ `>!` Operator for debugging strings; includes `fmt` for template strings.
   - ✓ Ability to expose Sp3ctr3 (OS Fingerprinting Library that I wrote based on Nim's standard library)
        - ```import run_exe / sp3ctr3```
      - Example: `echo os_eye(false)[1]` 
