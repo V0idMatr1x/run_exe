@@ -39,7 +39,7 @@ This means one can create domain specific languages, and write code that is gene
      - In Progress
   - ✓ Macro providing a Pythonic `input()` method for Nim.
   - ✓ `>!` Operator for debugging strings; includes `fmt` for template strings.
-  - ✓ Ability to expose Sp3ctr3 (OS Fingerprinting Library that I wrote based on Nim's standard library)
+  - ✓ Ability to expose Sp3ctr3 (OS fingerprinting library that I wrote based on Nim's standard library)
        - ```import run_exe / sp3ctr3```
      - Example: `echo os_eye(false)[1]` 
        - `# Console Output: ArchLinux`
